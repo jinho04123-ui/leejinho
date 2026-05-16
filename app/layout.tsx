@@ -7,8 +7,8 @@ import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "나만의 교육용 웹앱",
-  description: "Vercel로 즉시 배포 가능한 교육용 웹앱 보일러플레이트",
+  title: "진호쌤의 실험교실",
+  description: "진호쌤이 직접 설계한 교육용 수학 실험실",
 };
 
 export default function RootLayout({

@@ -7,7 +7,7 @@ const Header = () => {
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
         <Link href="/" className="flex items-center space-x-2 text-xl font-bold tracking-tight text-primary-600">
           <GraduationCap className="h-8 w-8" />
-          <span>EduApp</span>
+          <span>진호쌤의 실험교실</span>
         </Link>
         
         <nav className="hidden space-x-6 md:flex">

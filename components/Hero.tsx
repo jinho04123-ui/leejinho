@@ -11,7 +11,7 @@ const Hero = () => {
           </div>
         </div>
         <h1 className="mb-6 text-4xl font-extrabold tracking-tight text-gray-900 md:text-6xl">
-          나만의 <span className="text-primary-600">교육용 웹앱</span> 만들기
+          <span className="text-primary-600">진호쌤</span>의 수학 실험교실
         </h1>
         <p className="mx-auto mb-10 max-w-2xl text-lg text-gray-600 md:text-xl">
           가장 단순하고 깔끔한 시작. 이제 당신의 아이디어를 교육 서비스로 구현해보세요. 

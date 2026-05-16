@@ -1,15 +1,31 @@
 import Hero from "@/components/Hero";
 import PrimeFactorizer from "@/components/PrimeFactorizer";
+import SieveOfEratosthenes from "@/components/SieveOfEratosthenes";
+import FunctionMachine from "@/components/FunctionMachine";
 
 export default function Home() {
   return (
     <div className="container mx-auto px-4 py-8">
       <Hero />
       
-      <section className="my-16">
-        <PrimeFactorizer />
-        <div className="mt-8 text-center text-gray-500 italic">
-          // 여기에 새로운 수학 교육용 도구를 추가해 보세요!
+      <section className="my-20">
+        <div className="mb-12 text-center">
+          <h2 className="text-3xl font-bold text-gray-900">학습 프로그램</h2>
+          <p className="mt-4 text-gray-600">수학의 원리를 직접 체험하며 재미있게 배워보세요.</p>
+        </div>
+        
+        <div className="space-y-32">
+          <div id="sieve">
+            <SieveOfEratosthenes />
+          </div>
+          
+          <div id="function-machine">
+            <FunctionMachine />
+          </div>
+          
+          <div id="factorizer">
+            <PrimeFactorizer />
+          </div>
         </div>
       </section>
       
