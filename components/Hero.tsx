@@ -19,11 +19,6 @@ const Hero = () => {
         </p>
         
         <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-x-4 sm:space-y-0">
-          <button className="flex items-center justify-center space-x-2 rounded-lg bg-primary-600 px-8 py-4 text-lg font-bold text-white shadow-xl hover:bg-primary-700 hover:scale-105 transition-all">
-            <span>시작하기</span>
-            <ArrowRight className="h-5 w-5" />
-          </button>
-          
           <button className="rounded-lg border border-gray-300 bg-white px-8 py-4 text-lg font-bold text-gray-700 shadow-sm hover:bg-gray-50 transition-all">
             더 알아보기
           </button>
