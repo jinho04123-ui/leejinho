@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Settings, Play, CheckCircle2, XCircle, HelpCircle } from "lucide-react";
+import { Settings, Play, CheckCircle2, XCircle, HelpCircle, ArrowRight } from "lucide-react";
 
 const FunctionMachine = () => {
   const [input, setInput] = useState<string>("");
