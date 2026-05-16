@@ -2,6 +2,7 @@ import Hero from "@/components/Hero";
 import PrimeFactorizer from "@/components/PrimeFactorizer";
 import SieveOfEratosthenes from "@/components/SieveOfEratosthenes";
 import FunctionMachine from "@/components/FunctionMachine";
+import CoordinateOmok from "@/components/CoordinateOmok";
 
 export default function Home() {
   return (
@@ -15,6 +16,10 @@ export default function Home() {
         </div>
         
         <div className="space-y-32">
+          <div id="coordinate-omok">
+            <CoordinateOmok />
+          </div>
+
           <div id="sieve">
             <SieveOfEratosthenes />
           </div>
